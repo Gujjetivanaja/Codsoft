@@ -30,7 +30,6 @@ button_fr.pack()
 clear = Button(button_fr, text = "C", fg = "grey", width = 32, height = 3, bd = 0, bg = "#c7dcff", cursor = "hand2", command = lambda: bt_clear()).grid(row = 0, column = 0, columnspan = 3, padx = 1, pady = 1)
 divide = Button(button_fr, text = "/", fg = "grey", width = 10, height = 3, bd = 0, bg = "#c7dcff", cursor = "hand2", command = lambda: btn_click("/")).grid(row = 0, column = 3, padx = 1, pady = 1)
 # row 2
-
 seven = Button(button_fr, text = "7", fg = "grey", width = 10, height = 3, bd = 0, bg = "#80afff", cursor = "hand2", command = lambda: btn_click(7)).grid(row = 1, column = 0, padx = 1, pady = 1)
 eight = Button(button_fr, text = "8", fg = "grey", width = 10, height = 3, bd = 0, bg = "#80afff", cursor = "hand2", command = lambda: btn_click(8)).grid(row = 1, column = 1, padx = 1, pady = 1)
 nine = Button(button_fr, text = "9", fg = "grey", width = 10, height = 3, bd = 0, bg = "#80afff", cursor = "hand2", command = lambda: btn_click(9)).grid(row = 1, column = 2, padx = 1, pady = 1)
